@@ -159,7 +159,6 @@ export default {
       }
     },
     getRowDetail($event, id) {
-      console.log(id);
       const rows = this.selectedRows;
 
       if (rows.includes(id)) {
